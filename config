@@ -19,7 +19,7 @@ default_border pixel 0
 default_floating_border pixel 0
 
 # .screenlayout
-exec --no-startup-id ~/.screenlayout/3420.sh
+exec --no-startup-id ~/.screenlayout/monitors.sh
 
 # Launch Nautilus in floating mode
 bindsym $mod+n exec --no-startup-id nautilus
