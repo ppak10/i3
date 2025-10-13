@@ -18,8 +18,17 @@ font pango:monospace 8
 default_border pixel 0
 default_floating_border pixel 0
 
+# wallpaper
+exec_always --no-startup-id feh --bg-center ~/.config/i3/pier.jpg
+
+# opacity
+exec_always --no-startup-id picom -b
+
 # .screenlayout
 exec --no-startup-id ~/.screenlayout/monitors.sh
+
+# Print Screen
+bindsym Print exec flameshot gui
 
 # Launch Nautilus in floating mode
 bindsym $mod+n exec --no-startup-id nautilus
