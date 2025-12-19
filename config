@@ -33,6 +33,9 @@ bindsym Print exec flameshot gui
 # Launch Nautilus in floating mode
 bindsym $mod+n exec --no-startup-id nautilus
 
+# Lock screen
+bindsym $mod+Shift+x exec i3lock
+
 # Make Nautilus always float
 for_window [class="Nautilus"] floating enable, resize set 1280 720, move position 540 540
 
